@@ -1,0 +1,1268 @@
+ .button {
+            background-color: blue;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .button a {
+            color: white;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: darkblue;
+        }
+        .nav-link:hover {
+            color: blue !important;
+        }
+        
+        /* 2nd */
+          /* Adjust hero section spacing */
+          
+.hero-section {
+position: relative;
+padding: 50px 0;
+background-color:rgb(207, 239, 250);
+}
+
+/* Adjust doctor image size */
+.doctor-img {
+max-width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+/* Positioning the review box over the image */
+.review-box {
+position: absolute;
+bottom: 10px;
+left: 10px;
+background: white;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+width: 180px;
+height: 120px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.review-images {
+display: flex;
+justify-content: center;
+margin-bottom: 5px;
+}
+
+.review-images img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-right: 3px;
+border: 2px solid white;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.review-box strong {
+font-size: 20px;
+display: flex;
+align-items: center;
+margin-top: 3px;
+}
+
+/* Styling the + symbol */
+.plus-symbol {
+background: #007bff;
+color: white;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+margin-left: 5px;
+font-size: 14px;
+}
+
+
+.stars {
+color: gold;
+font-size: 14px;
+font-weight: bold;
+}
+
+.review-score {
+color: black;
+font-size: 14px;
+font-weight: normal;
+margin-left: 5px; /* Adds some spacing */
+}
+
+
+.review-text {
+font-size: 15px;
+margin-top: 3px;
+}
+
+/* Adjust appointment form positioning */
+.appointment-form {
+margin-top: -50px; /* Moves form slightly up */
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+position: relative;
+z-index: 10;
+margin-right: 180px;
+}
+.book-now {
+background: #007bff;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+white-space: nowrap; /* Prevent text from wrapping */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px; /* Adds space between text and icon */
+}
+
+.book-now:hover {
+background: #0056b3;
+}
+
+#two{
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+}
+#three{
+    position: relative;
+    bottom: 220px;
+}
+/* Existing CSS Code */
+
+@media screen and (max-width: 768px) {
+    .hero-section {
+        padding: 20px 0;
+        text-align: center;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+    }
+    
+    .content {
+        text-align: center;
+    }
+
+    .doctor-img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .review-box {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .review-images img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .appointment-form {
+        margin-top: 0;
+        margin-right: 0;
+        padding: 15px;
+    }
+    
+    .book-now {
+        width: 100%;
+    }
+
+    #two {
+        position: static;
+    }
+    
+    #three {
+        position: static;
+    }
+}
+/* 3rd */
+/* Service Section */
+.service-section {
+    text-align: center;
+    padding: 50px 15px; /* Adjust padding for smaller screens */
+    background-color: white;
+}
+
+.service-box {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+}
+
+.service-box img {
+    width: 80px; /* Adjust image size */
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.service-box h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: black;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-section .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 25px;
+    }
+
+    .service-box {
+        width: 90%;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .service-box img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .service-box h4 {
+        font-size: 16px;
+    }
+
+    .service-box p {
+        font-size: 13px;
+    }
+}
+/* 4th */
+/* Hero Section */
+.hero-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+/* Left - Doctor Image */
+.main-image {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* Circular Images */
+.circle-img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.circle-img-1 {
+    top: 20%;
+    left: 20%;
+}
+
+.circle-img-2 {
+    bottom: 10%;
+    right: 20%;
+}
+
+/* Right - Hero Text */
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0b2a59;
+}
+
+.hero-text p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Info Box */
+.info-box {
+    border: 2px solid lightgray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Features List */
+.features {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.features li i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-outline-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .hero-section1 {
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .hero-image {
+        margin-top: 30px;
+    }
+
+    .circle-img-1, .circle-img-2 {
+        display:block;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 576px) {
+    .hero-text h2 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .features {
+        justify-content: center;
+    }
+
+    .features li {
+        width: 100%;
+        text-align: left;
+    }
+
+    .btn-primary, .btn-outline-primary {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .main-image {
+        max-width: 250px;
+    }
+}
+/* 5th */
+.consultation-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+/* Left Content */
+.consultation-text {
+    max-width: 500px;
+}
+
+.consultation-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0b2a59;
+}
+
+.consultation-text p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Doctor Image */
+.consultation-image {
+    position: relative;
+    text-align: center;
+}
+
+.consultation-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Right Box (Contact Info) */
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align:start;
+    max-width: 300px;
+}
+
+.contact-box h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.contact-box .schedule {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0b2a59;
+    margin-bottom: 5px;
+}
+
+.contact-box .call-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.contact-box .call-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .consultation-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .consultation-text {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .consultation-image {
+        margin-top: 30px;
+    }
+
+    .contact-box {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 90%;
+    }
+}
+/* 6th */
+/* General Styling */
+
+
+        /* Statistics Section */
+        .stats-section {
+            background-color: #eef2ff;
+            padding: 40px 0;
+            text-align: center;
+            width: 95%;
+        }
+
+        .stat-box {
+            display: flex;
+            align-items: center;
+            /* background: white; */
+            padding: 20px;
+            border-radius: 10px;
+            /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+            width: 280px;
+            transition: transform 0.3s ease-in-out;
+            justify-content: center;
+        }
+
+        .stat-box:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Icon, Number, and Text Row */
+        .stat-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-align: left;
+        }
+
+        .stat-icon {
+            background: #007bff;
+            color: white;
+            font-size: 30px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        /* Styling for Numbers with Plus Sign */
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0b2a59;
+            display: flex;
+            align-items: center;
+        }
+
+        .stat-number .plus {
+            color: #007bff; /* Blue color for + symbol */
+            font-size: 24px;
+            margin-left: 5px;
+        }
+
+        .stat-text {
+            font-size: 16px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .stat-box {
+                width: 100%;
+                margin-bottom: 20px;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .stat-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .stats-section{
+                width: 50%;
+            }
+            .stat-number{
+                display: block;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    /* 7th */
+    .service-box1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            height: 250px;
+            padding: 20px;
+        }
+        .blue-box {
+            background-color: #2962ff;
+            border-radius: 0ch;
+        }
+        .dark-box {
+            background-color: #241c35;
+            border-radius: 0ch;
+        }
+        .image-box1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .image-box2 img {
+            width: 100%;
+            height: 73%;
+            object-fit: cover;
+        }
+        .full-height {
+            height: 79vh;
+        }
+        @media (max-width: 768px) {
+    .service-box1 {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        
+    }
+    .image-box1 img, 
+    .image-box2 img, 
+    .image-box3 img {
+        height: auto;
+       
+    }
+    .image-box1, 
+    .image-box2, 
+    .image-box3 {
+        width: 100%;
+    }
+    .full-height {
+        height: auto;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+    .col-md-4, .col-md-8 {
+        width: 100%;
+    }
+}
+/* 8th */
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .s-section {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .badge {
+            background-color: #eaf0ff;
+            color: #287bff;
+            padding: 8px 15px;
+            font-size: 14px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .s-title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #0b2a59;
+            margin-bottom: 10px;
+        }
+
+        .s-description {
+            color: #666;
+            font-size: 16px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        /* 9th */
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .s1-section {
+            padding: 60px 20px;
+        }
+
+        .s1-box {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .s1-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .s1-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 65%;
+            height: 50%;
+            background: white;
+            padding: 15px;
+            border-radius: 0 0 10px 10px;
+            text-align: center;
+        }
+
+        .s1-title {
+            font-size: 15px;
+            font-weight: bold;
+            color: #0b2a59;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .s1-title i {
+            color: #007bff;
+        }
+
+        .s1-text {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .learn-more {
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .learn-more img{
+            height: 20px;
+            width: 18px;
+        }
+
+        .learn-more:hover {
+            text-decoration: underline;
+        }
+
+        /* Background Images */
+        .teeth-checkup {
+            background-image: url(images/div.elementor-widget-wrap-3.png); /* Replace with your actual image */
+        }
+
+        .teeth-whitening {
+            background-image: url(images/div.elementor-widget-wrap-4.png); /* Replace with your actual image */
+        }
+
+        .dental-braces {
+            background-image: url(images/div.elementor-widget-wrap-5.png); /* Replace with your actual image */
+        }
+
+        .teeth-implants {
+            background-image: url(images/div.elementor-widget-wrap-5.png); /* Replace with your actual image */
+        }
+
+        .dental-filling {
+            background-image: url(images/div.elementor-widget-wrap-3.png); /* Replace with your actual image */
+        }
+
+        .cosmetic-dentistry {
+            background-image: url(images/div.elementor-widget-wrap-4.png); /* Replace with your actual image */
+        }
+        /* media query */
+        @media (max-width: 768px) {
+            .s1-section{
+                width: 80%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 10px;
+            }
+        }
+    /* 10th */
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.testimonial-section {
+    padding: 60px 20px;
+}
+
+.testimonial-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.quote-icon {
+    font-size: 30px;
+    color: #007bff;
+}
+
+.testimonial-content {
+    flex-grow: 1;
+}
+
+.testimonial-content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.testimonial-role {
+    font-size: 12px;
+    color: #888;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .testimonial-section {
+        padding: 40px 10px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .testimonial-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .quote-icon {
+        font-size: 25px;
+    }
+
+    .testimonial-content p {
+        font-size: 13px;
+    }
+
+    .testimonial-author {
+        font-size: 15px;
+    }
+
+    .testimonial-role {
+        font-size: 11px;
+    }
+
+    .testimonial-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    button.btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+/* 11th */
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 10%;
+            background-color: #eef2f7;
+        }
+
+        .text-content {
+            flex: 1;
+        }
+
+        .text-content h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #0b2a59;
+        }
+
+        .text-content p {
+            font-size: 16px;
+            color: #555;
+            margin: 20px 0;
+        }
+
+        .text-content .badge {
+            font-size: 14px;
+            background-color: #eff5ff;
+            color: #0b2a59;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .image-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-content img {
+            width: 550px;
+            height: 350px;
+            border-radius: 10px;
+            clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column;
+                text-align: center;
+                padding: 40px 5%;
+                width: 80%;
+            }
+
+            .text-content h2 {
+                font-size: 28px;
+            }
+
+            .text-content p {
+                font-size: 14px;
+            }
+
+            .btn-primary {
+                margin-top: 20px; /* Extra space for button */
+            }
+
+            .image-content img {
+                width: 100%;
+                height: auto;
+                clip-path: none;
+                border-radius: 10px;
+                margin-top: 40px; /* Adds space below the text */
+            }
+        }
+    /* 12th */
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .blogs-section {
+            text-align: center;
+            padding: 60px 10%;
+        }
+
+        .blogs-section .badge {
+            font-size: 14px;
+            background-color: #dfe7f5;
+            color: #0b2a59;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .blogs-section h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #0b2a59;
+            margin-top: 10px;
+        }
+
+        .blog-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .blog-content {
+            padding: 15px;
+            text-align: left;
+        }
+
+        .blog-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #0b2a59;
+            margin: 10px 0;
+        }
+
+        .blog-text {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: 2px solid #007bff;
+            transition: 0.3s ease-in-out, color 0.3s ease-in-out;
+            background-color: #007bff;
+        }
+
+        .read-more:hover {
+            background: #0f0f0f;
+            color: #fff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .blogs-section {
+                padding: 30px 5%;
+                width: 80%;
+            }
+
+            .blog-card {
+                margin-bottom: 20px;
+            }
+        }
+
+ /* 13th */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .hero1-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 10%;
+            background: #eef3ff;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .hero1-text {
+            max-width: 50%;
+        }
+
+        .hero1-text .badge {
+            font-size: 14px;
+            background-color: #dfe7f5;
+            color: #0b2a59;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .hero1-text h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #0b2a59;
+            margin-top: 10px;
+        }
+
+        .hero1-text p {
+            font-size: 16px;
+            color: #555;
+            margin: 15px 0;
+        }
+
+        .hero1-text .btn {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            border: none;
+            transition: 0.3s ease-in-out;
+        }
+
+        .hero1-text .btn:hover {
+            background: #0056b3;
+        }
+
+        .hero1-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .hero1-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero1-text {
+                max-width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    /* 14th */
+    body {
+            background-color: #f8f9fa;
+        }
+        .footer {
+            background-color: #0b132b;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer h5 {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .footer h5::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 3px;
+            background-color: #007bff;
+            margin-top: 5px;
+        }
+        .footer .social-icons a {
+            margin: 0 5px;
+        }
+        .footer .social-icons img {
+            width: 30px;
+        }
+        .input-group .form-control {
+            height: 45px;
+            font-size: 16px;
+            border-radius: 5px 0 0 5px;
+        }
+        .input-group .btn {
+            height: 45px;
+            font-size: 16px;
+            border-radius: 0 5px 5px 0;
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+        .contact-info img {
+            width: 20px;
+            margin-right: 10px;
+        }
+        .footer .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .footer .col-md-3 {
+            flex: 1;
+            text-align: center;
+            min-width: 250px;
+        }
+        .footer-bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .footer .row {
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer .col-md-3 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
